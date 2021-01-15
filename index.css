@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    font-family: Arial;
+    font-size: 21px;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color:#A9DDFF;
+    padding: 10px 35px 100px 80px;
+}
+.card-title {
+    color: white;
+    font-weight: bold;
+    font-size: 72px;
+    margin-bottom: 40px;
+}
+.card-sub-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.container-input {
+    display: flex;
+}
+.container-input-text {
+    padding: 10px;
+    outline: none;
+    width: 380px;
+    background-color: #E9E9E9;
+    border: #F7EDE6 3px ridge;
+    border-radius: 5px;
+}
+.container-input-text-btn {
+    position: absolute;
+    padding: 9px 20px 9px 20px;
+    background:#F6B606;
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 287.5px;
+    margin-top: 2px;
+    cursor: pointer;
+    border-right: #C69106 3px inset;
+    border-bottom: #C69106 3px inset;
+    border-left: #F2DD9F 3px outset;
+    border-top: #F2DD9F 3px outset;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
